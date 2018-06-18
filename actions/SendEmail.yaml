@@ -1,0 +1,37 @@
+---
+name: "SendEmail"
+runner_type: "python-script"
+description: "Send Email to Recipents provided with Result of the Action Execution"
+enabled: true
+entry_point: "SendEmail.py"
+parameters:
+    sender:
+        type: "string"
+        description: "Sends Email Address"
+        required: true
+        position: 0
+    recipient:
+        type: "string"
+        description: "Receipient Email Address."
+        required: true
+        position: 1
+    subject:
+        type: "string"
+        description: "Email Subject."
+        required: true
+        position: 2
+    imageheader:
+        type: "string"
+        description: "Email header Images."
+        required: true
+        position: 3
+    imagefooter:
+        type: "string"
+        description: "Email Footer Image."
+        required: true
+        position: 4
+    content:
+        type: "string"
+        description: "Email Message body"
+        required: true
+        position: 5

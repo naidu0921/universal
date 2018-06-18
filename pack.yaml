@@ -1,0 +1,10 @@
+---
+ref: universal
+name: universal
+description: universal pack containing actions of sensor, rule, and action for all common actions across EIS Orginization.
+keywords:
+    - universal
+    - universal
+version: 0.1.0
+author: Dell, Inc.
+email: reddeppa_naidu@dell.com
